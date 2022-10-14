@@ -1,0 +1,104 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: fit-content;
+    margin: 2rem auto;
+    background-color: #eeeeee;
+    padding: 2rem;
+    align-items: center;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.searchBox input{
+    border: 1px solid #eeeeee;
+    width: 100%;
+    padding: 1rem;
+}
+
+.searchBox input:focus {
+    outline: none;
+    border: 1px solid black;
+}
+
+.invalid input{
+    color: red;
+}
+
+.searchBox button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.searchBox button:hover {
+    cursor: pointer;
+}
+
+.pokemon {
+    background-color: #222222;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top:2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+}
+
+.loader {
+    width:6rem;
+    object-fit: scale-down;
+}
+
+.pokemon img {
+    padding-right: 1rem;
+    width: 200px;
+}
+
+.pokemonDetails {
+    border-left: 1px solid #aaaaaa;
+    padding-left: 1rem;
+}
+
+.pokemonName {
+    font-size: 2.4rem;
+    color: white;
+    font-family: Tahoma;
+}
+
+.pokemonNumber {
+    color: #aaaaaa;
+    font-size: 1.6rem;
+    font-family: Tahoma;
+}
+
+.pokemonStats{
+    margin-top: 1rem;
+}
+
+.pokemonStats div{
+    padding-top: 0.5rem;
+    font-family: Tahoma;
+}
+
+.statsLabel {
+    color: #aaaaaa;
+}
+
+.statsValue {
+    color: white;
+}
+
+.loader {
+    padding-top:0.5rem;
+    padding-left:0.5rem;
+    width: 4rem;
+    height: fit-content;
+}
